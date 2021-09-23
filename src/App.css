@@ -51,6 +51,12 @@ p {
 }
 
 .treeImg {
-  filter: invert(14%) sepia(35%) saturate(4285%) hue-rotate(196deg)
-    brightness(99%) contrast(96%);
+  position: absolute;
+  top: 5rem;
+  right: 1rem;
+  width: 900px;
+  height: 900px;
+  max-width: 100%;
+  filter: invert(15%) sepia(23%) saturate(6517%) hue-rotate(196deg)
+    brightness(90%) contrast(96%);
 }
