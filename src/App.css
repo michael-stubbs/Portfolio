@@ -1,33 +1,48 @@
+.jumbotron {
+  margin: 0 5rem;
+  padding: 150px;
+}
+
 h1 {
   font-family: "Roboto Mono", monospace;
   color: #05386b;
-  font-size: 1.2rem;
+  font-size: 2.2rem;
+  margin: 0.5rem auto;
 }
 
 h2,
 h3,
 p {
   font-family: "Inter", sans-serif;
-  color: #edf5e1;
+  color: #05386b;
+  margin: 0.5rem auto;
 }
 
 h2 {
-  font-size: 4rem;
+  font-size: 6rem;
 }
 
 h3 {
-  font-size: 2rem;
+  font-size: 4rem;
 }
 
 p {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
+  margin: 1rem 0;
+  width: 900px;
+  max-width: 80%;
 }
 
 .navbar {
-  padding: 1.5rem;
+  background-color: #05386b;
+  padding: 0.5rem 1.5rem;
   display: flex;
   justify-content: right;
 }
 
 .btnGroup {
+}
+
+.upwork {
+  margin: 2rem 0;
 }
