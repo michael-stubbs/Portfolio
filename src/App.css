@@ -1,6 +1,9 @@
 .jumbotron {
-  margin: 0 5rem;
+  margin: 8rem 8rem;
   padding: 150px;
+}
+
+.mainContainer {
 }
 
 h1 {
@@ -45,4 +48,9 @@ p {
 
 .upwork {
   margin: 2rem 0;
+}
+
+.treeImg {
+  filter: invert(14%) sepia(35%) saturate(4285%) hue-rotate(196deg)
+    brightness(99%) contrast(96%);
 }
