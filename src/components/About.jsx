@@ -27,7 +27,7 @@ function About() {
           <p className={styles.textSection}>
             I fell in love with React and Next.js, and have had the pleasure of
             working on collaborative projects such as an interior design
-            website, a review blog, and even an emerging app for short story
+            website, a review blog, and even an upcoming app for short story
             writers.
           </p>
         </div>
