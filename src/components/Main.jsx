@@ -1,5 +1,4 @@
 import { Button } from "@mui/material";
-import { ReactComponent as Tree } from "../Barren-Tree-Silhouette-2.svg";
 
 function Main() {
   return (
@@ -20,9 +19,6 @@ function Main() {
             </Button>
           </div>
         </div>
-        {/* <div className="treeImg">
-          <Tree />
-        </div> */}
       </div>
     </main>
   );
