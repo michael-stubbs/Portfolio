@@ -1,0 +1,17 @@
+.about {
+  margin: 1rem 6rem;
+  padding: 150px;
+}
+
+.aboutMain {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+}
+
+.smallTitle {
+  font-size: 3rem;
+}
+
+.textSection {
+  font-weight: 600;
+}
