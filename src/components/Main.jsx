@@ -1,10 +1,12 @@
 import { Button } from "@mui/material";
 
+import styles from "../Styles/Main.module.scss";
+
 function Main() {
   return (
     <main>
-      <div className="mainContainer">
-        <div className="jumbotron">
+      <div className={styles.mainContainer}>
+        <div className={styles.jumbotron}>
           <h1 className="">Hi there, my name is</h1>
           <h2>Michael Stubbs.</h2>
           <h3>I build professional websites.</h3>
@@ -13,7 +15,7 @@ function Main() {
             currently focused on offering my services as a freelance developer,
             I'm always looking for my next opportunity!
           </p>
-          <div className="upwork">
+          <div className={styles.upwork}>
             <Button variant="outlined" size="large">
               Check out my Upwork
             </Button>
