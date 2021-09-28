@@ -1,0 +1,31 @@
+.sidebar {
+   width: 40px;
+   position: fixed;
+   bottom: 0px;
+   left: 30px;
+   right: auto;
+   z-index: 10;
+}
+
+.sociallist {
+    display: flex;
+    flex-direction: column;
+    -moz-box-align: center;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    list-style: outside none none;
+}
+
+.sidebar:after {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 400px;
+    margin: 0px auto;
+    color: #05386b;
+}
+
+.customList {
+    line-height: 100px;
+}
