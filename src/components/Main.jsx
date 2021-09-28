@@ -26,7 +26,13 @@ function Main() {
           </p>
           <div className={styles.upwork}>
             <ThemeProvider theme={theme}>
-              <Button variant="contained" size="large" color="primary">
+              <Button
+                variant="contained"
+                size="large"
+                color="primary"
+                href="https://www.upwork.com/freelancers/~0109b85efb3e634933"
+                target="_blank"
+              >
                 Check out my Upwork
               </Button>
             </ThemeProvider>
