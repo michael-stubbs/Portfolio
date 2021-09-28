@@ -5,10 +5,12 @@ import About from "./components/About";
 
 function App() {
   return (
-    <div className="mainBody">
+    <div>
       <Header />
-      <Main />
-      <About />
+      <div className="mainBody">
+        <Main />
+        <About />
+      </div>
     </div>
   );
 }

@@ -9,6 +9,10 @@
 .mainBody {
   display: flex;
   flex-direction: column;
+  margin: 0px auto;
+  width: 100%;
+  max-width: 1600px;
+  min-height: 100vh;
 }
 
 h1 {
