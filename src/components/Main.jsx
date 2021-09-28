@@ -1,6 +1,6 @@
 import { Button } from "@mui/material";
 
-import styles from "../Styles/Main.module.scss";
+import styles from "../styles/Main.module.scss";
 
 function Main() {
   return (

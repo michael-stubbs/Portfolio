@@ -3,7 +3,7 @@ import ListItem from "@mui/material/ListItem";
 import ListItemText from "@mui/material/ListItemText";
 import ListSubheader from "@mui/material/ListSubheader";
 
-import styles from "../Styles/About.module.scss";
+import styles from "../styles/About.module.scss";
 
 function About() {
   return (
