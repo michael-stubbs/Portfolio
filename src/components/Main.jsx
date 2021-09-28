@@ -1,6 +1,15 @@
-import { Button } from "@mui/material";
+import { Button, createTheme, ThemeProvider } from "@mui/material";
 
 import styles from "../styles/Main.module.scss";
+
+const theme = createTheme({
+  palette: {
+    primary: {
+      main: "#215385",
+      contrastText: "#EDF5E1",
+    },
+  },
+});
 
 function Main() {
   return (
@@ -16,9 +25,11 @@ function Main() {
             I'm always looking for my next opportunity!
           </p>
           <div className={styles.upwork}>
-            <Button variant="outlined" size="large">
-              Check out my Upwork
-            </Button>
+            <ThemeProvider theme={theme}>
+              <Button variant="contained" size="large" color="primary">
+                Check out my Upwork
+              </Button>
+            </ThemeProvider>
           </div>
         </div>
       </div>
