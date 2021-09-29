@@ -4,7 +4,6 @@ import { ReactComponent as UpworkLogo } from "../upwork.svg";
 
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import ArrowCircleUpIcon from "@mui/icons-material/ArrowCircleUp";
 import MailOutlineIcon from "@mui/icons-material/MailOutline";
 
 import styles from "../styles/Sidebar.module.scss";
