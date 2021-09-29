@@ -1,5 +1,7 @@
 import { createTheme, ThemeProvider } from "@mui/material";
 
+import { ReactComponent as UpworkLogo } from "../upwork.svg";
+
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import ArrowCircleUpIcon from "@mui/icons-material/ArrowCircleUp";
@@ -44,8 +46,10 @@ function Sidebars() {
                 href="https://www.upwork.com/freelancers/~0109b85efb3e634933"
                 rel="noreferrer"
                 target="_blank"
+                className={styles.upworkLogo}
               >
-                <ArrowCircleUpIcon color="primary" fontSize="large" />
+                {/* <ArrowCircleUpIcon color="primary" fontSize="large" /> */}
+                <UpworkLogo style={{ height: 35, width: 35 }} />
               </a>
             </li>
             <li>
