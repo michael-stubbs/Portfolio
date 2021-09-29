@@ -32,6 +32,7 @@ function Main() {
                 color="primary"
                 href="https://www.upwork.com/freelancers/~0109b85efb3e634933"
                 target="_blank"
+                sx={{ fontFamily: "Inter" }}
               >
                 Check out my Upwork
               </Button>

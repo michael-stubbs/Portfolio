@@ -6,6 +6,9 @@ const theme = createTheme({
       main: "#EDF5E1",
     },
   },
+  typography: {
+    fontFamily: "Inter",
+  },
 });
 
 function Header() {
