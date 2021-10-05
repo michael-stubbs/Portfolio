@@ -44,6 +44,7 @@ function About() {
             "& ul": { padding: 0 },
           }}
           subheader={<li />}
+          className={styles.techList}
         >
           <ul>
             <ListSubheader sx={{ bgcolor: "#379683", fontWeight: "bold" }}>
